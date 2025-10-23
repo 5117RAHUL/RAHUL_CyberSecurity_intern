@@ -1,0 +1,32 @@
+sample email:
+From: "PayPal Support" <support@paypa1.com>
+To: you@example.com
+Subject: Verify your PayPal account
+Date: Thu, 23 Oct 2025 12:00:00 +0530
+
+Dear Customer,
+
+We detected unusual activity on your PayPal account. For your security, we have temporarily limited access to your account.
+You must verify your account within 24 hours or it will be permanently suspended.
+
+Please verify now:
+https://login[.]verify-paypal[.]com/secure/verify
+
+If you do not verify within 24 hours, your account will be closed and you will lose access to your funds.
+
+Regards,
+PayPal Support Team
+
+---
+If you did not request this, please ignore this email.
+
+
+summary
+
+From: support@paypa1.com
+
+Subject: Verify your PayPal account
+Message: “Your account will be closed in 24 hours. Click here to verify.”
+Real link: http://login.verify-paypal.com
+ (fake site)
+Result: Phishing email – fake domain, urgent message, malicious link.
