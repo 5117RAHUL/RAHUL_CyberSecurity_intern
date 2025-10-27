@@ -1,0 +1,19 @@
+Steps Followed (Using GUI):
+
+Opened Control Panel → System and Security → Windows Defender Firewall.
+
+Clicked Advanced Settings to open Windows Defender Firewall with Advanced Security.
+
+Selected Inbound Rules to view current rules.
+
+Chose New Rule → Port → TCP → Specific local ports: 23 → Block the connection.
+
+Selected all profiles (Domain, Private, Public) → named it Block Telnet Port 23 → clicked Finish.
+
+Verified that the rule appeared in the inbound list.
+
+Tested by attempting a Telnet connection on port 23, which was successfully blocked.
+
+Disabled the rule by right-clicking it → Disable Rule.
+
+Re-enabled it again later using Enable Rule option. 
